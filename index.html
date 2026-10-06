@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6ecd9">
+  <title>Для мами й тата</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sun"></div>
+  <div class="sparks" id="sparks"></div>
+
+  <main class="stage">
+
+    <!-- Екран 1 -->
+    <section class="screen active">
+      <h1 class="title">Мамо й тато, я дещо хочу вам сказати...</h1>
+      <button class="btn" data-next>Відкрити ❤️</button>
+    </section>
+
+    <!-- Екран 2 -->
+    <section class="screen">
+      <p class="big">Дякую вам.</p>
+      <p class="sub">За те, що завжди поруч.</p>
+      <button class="btn" data-next>Далі →</button>
+    </section>
+
+    <!-- Екран 3 -->
+    <section class="screen">
+      <p class="body">За дім, за підтримку, за всі ваші переживання за мене. Я не завжди це кажу, але я це дуже ціную.</p>
+      <button class="btn btn-round" data-next data-spark aria-label="Серце">❤️</button>
+    </section>
+
+    <!-- Фінал -->
+    <section class="screen final">
+      <!-- Поклади сімейне фото поруч з index.html під назвою family.jpg -->
+      <img class="photo" src="family.jpg" alt="Наше сімейне фото">
+      <p class="love">Я вас дуже люблю. ❤️</p>
+      <p class="thanks">Дякую, що ви в мене є.</p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
